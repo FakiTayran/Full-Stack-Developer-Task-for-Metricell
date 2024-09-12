@@ -28,6 +28,8 @@ namespace InterviewTest
             {
                 configuration.RootPath = "ClientApp/build";
             });
+
+            services.AddScoped<IEmployeeService, EmployeeManager>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -59,6 +61,7 @@ namespace InterviewTest
                     spa.UseReactDevelopmentServer(npmScript: "start");
                 }
             });
+            
         }
 
         private void PrepareDB()

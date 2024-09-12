@@ -1,0 +1,26 @@
+
+.sidebar {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-right: 1px solid #dee2e6;
+}
+
+.sidebar-button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.result-label {
+    color: red;
+    font-weight: bold;
+}
+
+.main-content {
+    padding: 15px;
+}
+
+.table-container {
+    margin-top: 20px;
+}
+
+

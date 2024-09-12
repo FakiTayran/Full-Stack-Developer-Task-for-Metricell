@@ -13,6 +13,7 @@ namespace InterviewTest
     {
         public static void Main(string[] args)
         {
+            SQLitePCL.Batteries_V2.Init();
             CreateHostBuilder(args).Build().Run();
         }
 
